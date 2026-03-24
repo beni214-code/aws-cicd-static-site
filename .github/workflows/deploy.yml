@@ -21,7 +21,7 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Change directory to code
-        run: cd code
+        run: cd AWS Devops Engineer/code
 
       - name: Deploy to S3
         run: |
