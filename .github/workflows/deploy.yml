@@ -24,8 +24,8 @@ jobs:
         run: |
           pwd
           ls -la
-          ls -la site || true
+          ls -la Site || true
 
       - name: Deploy to S3
         run: |
-          aws s3 sync site/ s3://beni-cicd-static-site --delete
+          aws s3 sync Site/ s3://beni-cicd-static-site --delete
