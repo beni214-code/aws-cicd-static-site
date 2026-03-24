@@ -89,6 +89,7 @@ aws-cicd-static-site/
 ## 👤 Author
 
 **Beni Mulugeta**
+
 Building cloud and DevOps projects while transitioning into a tech career.
 
 ---
