@@ -1,15 +1,14 @@
-# aws-cicd-static-site
-CI/CD pipeline deploying a static website to AWS using GitHub Actions and S3
+## aws-cicd-static-site
+
+A portfolio project demonstrating how to deploy a static website to AWS and automate deployments using GitHub Actions.
 
 ## Project Overview
 
-This project demonstrates a CI/CD pipeline that automatically deploys a static website to AWS.
+This project shows how a static website can be hosted on Amazon S3, delivered through Amazon CloudFront, and automatically updated through a CI/CD pipeline using GitHub Actions.
 
-Whenever code is pushed to GitHub, the pipeline triggers and updates the website without manual intervention.
+The goal of this project was to move from manual deployment to automated deployment and gain hands-on experience with core cloud and DevOps services.
 
-## Tech Stack
+## Architecture
 
-- GitHub
-- GitHub Actions
-- Amazon S3
-- AWS CloudFront
+```text
+Developer → GitHub Repository → GitHub Actions → Amazon S3 → Amazon CloudFront → Users
